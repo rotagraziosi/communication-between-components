@@ -1,0 +1,5 @@
+<h1>List of motorcycles</h1>
+<div class="list">
+    <app-motorcycle-card *ngFor="let item of list" [motorcycle]="item" (vroomChange)="onVroom($event)">
+    </app-motorcycle-card>
+</div>

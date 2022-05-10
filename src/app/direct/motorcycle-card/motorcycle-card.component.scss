@@ -1,0 +1,25 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow-x: hidden;
+
+    .card-image {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+
+    .card-title {
+        font-size: 0.75em;
+    }
+
+    .card-title,
+    .card-content,
+    .card-footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
