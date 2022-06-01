@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { DirectModule } from './direct/direct.module';
+import { IndirectModule } from './indirect/indirect.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { DirectModule } from './direct/direct.module';
   ],
   imports: [
     BrowserModule,
-    DirectModule
+    DirectModule,
+    IndirectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

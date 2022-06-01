@@ -1,0 +1,5 @@
+<h1>List of dogs</h1>
+<div class="list">
+    <app-dog-card *ngFor="let item of list" [dog]="item" (barkChange)="onBark($event)">
+    </app-dog-card>
+</div>
